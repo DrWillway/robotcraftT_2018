@@ -1,0 +1,12 @@
+background_b: 50
+background_g: 86
+background_r: 50
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_darynapc__38083: 'http://darynaPC:38083/'}
+rosversion: '1.12.13
+
+  '
+run_id: eb37a882-8f5b-11e8-b8d4-c48e8f61fd6d
