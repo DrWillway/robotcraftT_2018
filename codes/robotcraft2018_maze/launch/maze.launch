@@ -1,0 +1,11 @@
+<!-- maze.launch: launch stage with a maze_solver node -->
+
+<launch>
+    <!--<node pkg="stage_ros" type="stageros" name="stageros" args="$(find robotcraft2018_maze)/world/robotcraft_maze.world" />-->
+    <include file="$(find robotcraft2018_driver_g2)/launch/robot_firmware.launch"/>
+    <!--<include file="$(find robotcraft2018_driver_g2)/launch/robot_driver.launch"/>-->
+    <node pkg="robotcraft2018_maze" type="maze_solver" name="maze_solver" output="screen" />
+    <!--<include file="$(find robotcraft2018_robot_description)/launch/display_robotcraft2018.launch"/>-->
+<!-- Don't forget to create and compile your node and add it here -->
+
+</launch>  

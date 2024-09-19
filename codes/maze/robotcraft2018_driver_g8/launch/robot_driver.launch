@@ -1,0 +1,4 @@
+<!-- robot_driver.launch -->
+<launch>
+	<node pkg="robotcraft2018_driver_g8" type="robot_driver" name="robot_driver"/>
+</launch>

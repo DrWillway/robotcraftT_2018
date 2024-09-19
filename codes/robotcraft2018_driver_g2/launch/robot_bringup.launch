@@ -1,0 +1,8 @@
+<!-- robot_bringup.launch-->
+<launch>
+  <include file="$(find robotcraft2018_driver_g2)/launch/robot_firmware.launch"/>
+  <include file="$(find robotcraft2018_driver_g2)/launch/robot_driver.launch"/>
+  <node pkg="robotcraft2018_driver_g2" type="square_test" name="square_test" output="screen" />
+  <include file="$(find robotcraft2018_robot_description)/launch/display_robotcraft2018.launch"/>
+</launch>
+
